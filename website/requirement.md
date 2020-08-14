@@ -1,0 +1,11 @@
+django=2.2.5
+dash==1.2.0
+plotly==3.10.0
+cufflinks>=0.16
+gunicorn>=19.9.0
+numpy>=1.17.2
+pandas>=0.25.1
+django_plotly_dash
+psycopg2
+social-auth-app-django==2.1.0
+Pillow==5.1.0 

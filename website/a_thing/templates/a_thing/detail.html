@@ -1,0 +1,11 @@
+<img src="/static/a_thing/images/sample_1.gif"><br>
+{% load static %}
+<link rel="stylesheet" type="test/css" href="{% static 'a_thing/style.css' %}">
+<h2>{{ family.family_name }}</h2><br>
+{% for person in family.person_set.all %}
+    <img src="{{ person.person_logo }}" width="120" height="100"><br>
+    <li>
+        <a href="{% url 'a_thing:bio' person.id %}"> <h3>{{ person.person_name }}</h3> </a><br><br>
+    </li>
+{% endfor %}
+<a href="{% url 'a_thing:index' %}"><h2>Home Page</h2></a>

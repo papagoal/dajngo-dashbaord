@@ -1,0 +1,3 @@
+[console_scripts]
+vaporize = evaporation.cli:main
+

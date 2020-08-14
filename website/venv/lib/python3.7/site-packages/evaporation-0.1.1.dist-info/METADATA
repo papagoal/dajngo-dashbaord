@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: evaporation
+Version: 0.1.1
+Summary: Calculation of evaporation and transpiration
+Home-page: https://github.com/openmeteo/evaporation
+Author: Antonis Christofides
+Author-email: antonis@antonischristofides.com
+License: GNU General Public License v3
+Keywords: evaporation
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: Click (>=7.0)
+Requires-Dist: iso8601
+Requires-Dist: htimeseries (<2,>=1.1.2)
+Requires-Dist: hspatial (>=0.1)
+
+===========
+evaporation
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/evaporation.svg
+        :target: https://pypi.python.org/pypi/evaporation
+
+.. image:: https://img.shields.io/travis/openmeteo/evaporation.svg
+        :target: https://travis-ci.org/openmeteo/evaporation
+
+.. image:: https://codecov.io/github/openmeteo/evaporation/coverage.svg
+        :target: https://codecov.io/gh/openmeteo/evaporation
+        :alt: Coverage
+
+.. image:: https://pyup.io/repos/github/openmeteo/evaporation/shield.svg
+         :target: https://pyup.io/repos/github/openmeteo/evaporation/
+         :alt: Updates
+
+Calculation of evaporation and transpiration
+
+* Free software: GNU General Public License v3
+* Documentation: https://evaporation.readthedocs.io.
+
+
+=======
+History
+=======
+
+0.1.1 (2019-07-18)
+==================
+
+- Fixed a spurious RuntimeWarning.
+- Improved error message if the altitude or location is missing in an
+  input file.
+
+0.1.0 (2019-06-21)
+==================
+
+- Initial release
+
+

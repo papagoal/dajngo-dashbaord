@@ -1,0 +1,34 @@
+<!-- templates/registration/login.html -->
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    <h2>Log-in</h2>
+    {% if form.errors %}
+        <p>
+            Your username and password didn't match.
+            Please try again.
+        </p>
+    {% else %}
+        <p>Please, use the following form to log-in. If you don't have an account
+        <a href="{% url "a_thing:register" %}">register here</a></p>
+    {% endif %}
+
+    <div class="login-form">
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="hidden" name="next" value="{{ next }}" />
+            <button type="submit">Login</button>
+        </form>
+        <p><a href="{% url "a_thing:password_reset" %}">Forgotten your password?</a></p>
+    </div>
+    <div class="social">
+        <ul>
+{#            <li class="facebook"><a href="{% url "social:begin" "facebook" %}">Sign in with Facebook</a></li>#}
+{#            <li class="twitter"><a href="{% url "social:begin" "twitter" %}">Login with Twitter</a></li>#}
+            <li class="google"><a href="{% url "social:begin" "google-oauth2" %}">Login with Google</a></li>
+        </ul>
+    </div>
+{% endblock %}

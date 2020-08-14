@@ -1,0 +1,25 @@
+fid,DN,id,PRUID,PRNAME,PRENAME,PRFNAME,PREABBR,PRFABBR,layer,path,xcoord,ycoord
+1,"255",,,,,,,,"14",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/14.shp|layername=14,-115.490419644198,54.0595200912012
+2,,"18",,,,,,,"18",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/18.shp|layername=18,-119.470600067582,55.694077740644
+3,,,,,,,,,"2",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/2.shp|layername=2,-113.047420587944,49.7697395042039
+4,"255",,,,,,,,"3",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/3.shp|layername=3,-111.911312144412,49.7904120600327
+5,,"1","48",Alberta,Alberta,Alberta,Alta.,Alb.,"1",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/RZ1.shp|layername=RZ1,-114.217219194878,49.8714867679225
+6,,,,,,,,,"23",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newnorthAB.shp,-114.202925720059,57.9167780193154
+7,,,,,,,,,"10",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone10.shp,-114.820710459216,53.3506894455064
+8,,,,,,,,,"11",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone11.shp,-113.662126437538,53.3676876264004
+9,,,,,,,,,"12",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone12.shp,-111.712357961873,52.8249850130212
+10,,,,,,,,,"13",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone13.shp,-111.4995325196,53.456104269805
+11,,,,,,,,,"15",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone15.shp,-112.167595243957,54.2901949142905
+12,,,,,,,,,"16",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone16.shp,-111.661058803563,54.802993559593
+13,,,,,,,,,"19",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone19.shp,-118.159036194097,55.6232315468987
+14,,,,,,,,,"20",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone20.shp,-115.847125403074,55.7004917478372
+15,,,,,,,,,"21",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone21.shp,-118.109125585066,56.6881597059386
+16,,,,,,,,,"4",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone4.shp,-111.098744015665,50.5118521329977
+17,,,,,,,,,"5",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone5.shp,-113.558326957649,50.9760661020826
+18,,,,,,,,,"6",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone6.shp,-114.738004769569,51.7659938526533
+19,,,,,,,,,"7",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone7.shp,-113.980806140223,52.0502804501988
+20,,,,,,,,,"8",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone8.shp,-112.955159434503,51.9503609264242
+21,,,,,,,,,"9",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newriskzone9.shp,-111.019796105336,51.9330930842091
+22,,,,,,,,,"24",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/newsouthwest.shp,-117.363180672588,53.1874103979513
+23,"255",,,,,,,,"17",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/rz17.shp|layername=rz17,-117.640188009614,55.0909854693991
+24,,,,,,,,,"22",/Users/nataliiaarman/Desktop/working folder/risk_zones_shapefile/AB/AB_risk_zone_map/AB_RZ_shapefiles/rz22.shp,-117.100493507022,58.1230605280746

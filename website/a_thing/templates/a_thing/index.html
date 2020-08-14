@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}Logged out{% endblock %}
+
+{% block content %}
+{% if family %}
+    <ul>
+{#        {% for f in family %}#}
+{#            <li><a href="{% url 'a_thing:detail' f.id %}">#}
+{#                <h1>{{ f.family_name }}</h1></a>#}
+{#            </li>#}
+{#        {% endfor %}#}
+        <li>
+            <a href="{% url 'a_thing:dash_1' %}"><h1> dash_1 </h1></a>
+        </li>
+        <li>
+            <a href="{% url 'a_thing:dash_2' %}"><h1> dash_2 </h1></a>
+        </li>
+        <li>
+            <a href="{% url 'a_thing:dash_3' %}"><h1> dash_3 </h1></a>
+        </li>
+        <li>
+            <a href="{% url 'a_thing:dash_4' %}"><h1> dash_4 </h1></a>
+        </li>
+        <li>
+            <a href="{% url 'a_thing:dash_5' %}"><h1> dash_5 </h1></a>
+        </li>
+        <li>
+            <a href="{% url 'a_thing:dash_cb_1' %}"><h1> dash_cb_1 </h1></a>
+        </li>
+        <li>
+            <a href="{% url 'a_thing:dash_OE' %}"><h1> dash_OE </h1></a>
+        </li>
+        <li>
+            <a href="{% url 'a_thing:dash_OE_2' %}"><h1> dash_OE_2 </h1></a>
+        </li>
+        <li>
+            <a href="{% url 'a_thing:dash_cb_4' %}"><h1> dash_cb_4 </h1></a>
+        </li>
+    </ul>
+{% else %}
+    <p>No family</p>
+{% endif %}
+<div>
+    <a href="{% url 'a_thing:home' %}"><h2>User Page</h2></a>
+    <a href="{% url 'a_thing:logout' %}"><h2>Logout</h2></a>
+</div>
+{% endblock %}
+

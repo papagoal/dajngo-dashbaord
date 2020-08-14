@@ -1,0 +1,3 @@
+#!/Users/dan.liu/Desktop/mp/venv/bin/python3 -u
+from xonsh.main import main
+main()

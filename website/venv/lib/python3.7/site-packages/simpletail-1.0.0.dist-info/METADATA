@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simpletail
+Version: 1.0.0
+Summary: Read file in reverse order
+Home-page: https://github.com/aptiko/simpletail
+Author: Antonis Christofides
+Author-email: antonis@antonischristofides.com
+License: GPL3
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Text Processing :: General
+
+UNKNOWN
+
+

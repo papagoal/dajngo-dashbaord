@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: textbisect
+Version: 0.1.0
+Summary: Binary search in a sorted text file
+Home-page: https://github.com/openmeteo/textbisect
+Author: Antonis Christofides
+Author-email: antonis@antonischristofides.com
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN

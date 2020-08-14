@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: hspatial
+Version: 1.2.0
+Summary: Utilities for spatial integration of time series
+Home-page: https://github.com/openmeteo/hspatial
+Author: Antonis Christofides
+Author-email: antonis@antonischristofides.com
+License: GNU General Public License v3
+Keywords: hspatial
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: Click (>=7.0)
+Requires-Dist: iso8601
+Requires-Dist: htimeseries (<2,>=1.1)
+Requires-Dist: affine
+Requires-Dist: simpletail
+Requires-Dist: gdal (<3,>=1.10)
+Requires-Dist: django (<3,>=1.11)
+
+========
+hspatial
+========
+
+
+.. image:: https://img.shields.io/pypi/v/hspatial.svg
+        :target: https://pypi.python.org/pypi/hspatial
+
+.. image:: https://img.shields.io/travis/openmeteo/hspatial.svg
+        :target: https://travis-ci.org/openmeteo/hspatial
+
+.. image:: https://codecov.io/github/openmeteo/hspatial/coverage.svg
+        :target: https://codecov.io/gh/openmeteo/hspatial
+        :alt: Coverage
+
+.. image:: https://pyup.io/repos/github/openmeteo/hspatial/shield.svg
+         :target: https://pyup.io/repos/github/openmeteo/hspatial/
+         :alt: Updates
+
+Utilities for spatial integration of time series.
+
+
+* Free software: GNU General Public License v3
+* Documentation: https://hspatial.readthedocs.io.
+
+
+=======
+History
+=======
+
+1.2.0 (2019-09-11)
+==================
+
+- Added test utility setup_test_raster() to make unit testing easier.
+
+1.1.0 (2019-08-23)
+==================
+
+- Added option "version" to PointTimeseries.get_cached() so that it can
+  save in different file format versions.
+
+1.0.1 (2019-08-22)
+==================
+
+- Fixed a bug in extract_point_from_timeseries() where it was sometimes
+  raising the wrong exception type (depending on GDAL version).
+
+1.0.0 (2019-08-16)
+==================
+
+- The API for extract_point_timeseries_from_rasters() has changed.
+  Instead of a function, there's now a PointTimeseries class.
+- When extracting a point timeseries from rasters, start_date and
+  end_date can now be specified.
+
+0.2.0 (2019-08-13)
+==================
+
+- When extracting point time series from a set of rasters, it is now
+  possible to provide a prefix as well as a list of files, and it is
+  also possible to save the extracted time series to a file, optionally
+  only if the file is outdated.
+- extract_point_from_raster (and extract_point_timeseries_from_rasters)
+  now supports GeoDjango (GEOS) Point objects besides GDAL Point
+  objects.
+- Function coordinates2point has been added.
+
+0.1.2 (2019-07-30)
+==================
+
+- Fixed a bug where hts files were opened in the wrong mode, with
+  inconsistent results.
+
+0.1.1 (2019-07-05)
+==================
+
+- Fixed an ugly timezone bug that caused the data to refer to a
+  different time than what the timestamp actually said.
+- When the timezone was missing from the input files, there was an
+  incomprehensible AttributeError. This was fixed and now it provides an
+  understandable error message.
+
+0.1.0 (2019-06-21)
+==================
+
+- Initial release
+
+

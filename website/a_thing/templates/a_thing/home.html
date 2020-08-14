@@ -1,0 +1,22 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1> Welcome to Django-Dash Testing Application </h1>
+    {% if user.is_authenticated %}
+        Hi {{ user.username }}!
+        <li>
+            <a href="{% url 'a_thing:index' %}"><h2>dash list</h2></a>
+        </li>
+        <a href="{% url "a_thing:edit" %}"><p>edit your profile</p></a>
+        <a href="{% url 'a_thing:password_change' %}"><p>Password Chnage</p></a>
+        <a href="{% url 'a_thing:logout' %}"><p>Logout</p></a>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'a_thing:login' %}"><p>Login</p></a>
+    {% endif %}
+{% endblock %}
+
+

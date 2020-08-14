@@ -1,0 +1,7 @@
+[console_scripts]
+gh = gitsome.main_cli:cli
+
+[pygments.lexers]
+gitsome = xonsh.pyghooks:XonshLexer
+gitsomecon = xonsh.pyghooks:XonshConsoleLexer
+
